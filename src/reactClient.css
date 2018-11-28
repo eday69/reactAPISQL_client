@@ -1,0 +1,35 @@
+
+.compContainer {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.compInvoices {
+    width: 30vw;
+    border: 2px solid red;
+}
+
+.invList {
+    display: table;
+    width: 100%;
+}
+
+.invRow {
+    display: table-row;
+    width: 100%;
+}
+
+.invName {
+    display: table-cell;
+    width: 50%;
+    font-size: 0.8em;
+}
+
+.invAmt {
+    display: table-cell;
+    width: 50%;
+    font-size: 0.8em;
+    text-align: center;
+}
