@@ -4,7 +4,7 @@ import '../reactClient.css';
 class InvoicesComp extends Component {
 
   getInvoices() {
-        fetch('http://127.0.0.1:5000/invoices', {'mode': 'no-cors'})
+        fetch('http://localhost:5000/invoices', {'mode': 'no-cors'})
           .then(response => { console.log(response); return response.json()})
           .then(function(myJson) {
         //                var info =JSON.stringify(myJson);
